@@ -1,0 +1,21 @@
+{
+  "name": "rlm-extension",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "^0.34.0",
+    "effect": "latest",
+    "tau-prolog": "^0.3.4",
+    "typescript": "^5.0.0",
+    "ulid": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
